@@ -25,6 +25,7 @@ body {
     margin: 0 auto; /* Centra el body horizontalmente */
     padding: 20px; /* Espacio interior opcional */
 }
+
 .texto{
     color: aliceblue;
     font-family: 'Times New Roman', Times, serif; 
