@@ -65,17 +65,29 @@ body {
 
 .footer {
     text-align: center;
-    line-height: 8px;
+    line-height: 0px;
     background-color: #4099ec;
-    height: 55px;
+    height: 60px;
 }
 
 #menu{
     background-color: aqua; 
     text-align: center;
     font-size: 120%;
-    padding: 8px;
+    padding: 14px;
     border-radius: 10px; /* Radio de las esquinas */
     overflow: hidden; /* Evita que el contenido se desborde del borde redondeado */
+    display: inline-block; /*reduce el backgorund del del boton */
+    
+}
+
+.footer ul a {
+    display: block;
+    color: blue;
     text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.footer ul a:hover {
+    transform: translateY(-5px);
 }

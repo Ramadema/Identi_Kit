@@ -2,7 +2,7 @@ a {
     text-decoration: none; /* Elimina el subrayado por defecto */
     padding: 7px; /* Espaciado interno opcional */
     border-radius: 4px; /* Bordes redondeados opcionales */
-    transition: border 0.3s ease; /* Transición suave para el contorno */
+    transition: border 0.1s ease; /* Transición suave para el contorno */
 }
 
 a:hover {
