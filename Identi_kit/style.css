@@ -26,6 +26,10 @@ body {
     padding: 20px; /* Espacio interior opcional */
 }
 
+#bodyPrincipal{
+    text-align: center;
+}
+
 .texto{
     color: aliceblue;
     font-family: 'Times New Roman', Times, serif; 
@@ -82,4 +86,33 @@ body {
 
 #jueguitosImagenees {
     width: 400px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+}
+
+.ganaste{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 100px;
+    border-radius: 5PX;
+    background-color: green; 
+    color: white;
+    width: 800px;
+}
+
+.perdiste{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 100px;
+    border-radius: 5PX; 
+    background-color: brown; 
+    color: white;
+    width: 800px;
+
+}
+
+.tablePrac{
+    margin: 0 auto; 
+    border-collapse: separate; 
+    border-spacing: 10px; 
+    border: 20px solid cadetblue; 
+    padding: 10px;
 }
