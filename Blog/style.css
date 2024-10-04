@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    position: relative; /* Posiciona el body de manera relativa */
+    background-image: url(images/william-warby-ld4wZGqlLF4-unsplash.jpg);
+    background-size: cover;
+    
+}
+
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+}
+
+.subtitulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    margin-bottom: 2;
+}
+
+a{
+    margin: 20px;
+
+}
+
+
+.imagen_perfil{
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+    margin-top: 40px;
+    background-image: url(Viejo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu{
+    background-color: blue;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    /* line-height: 60px; */
+}
+
+.content{
+    /* width: 75%; */
+    height: 80vh;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
